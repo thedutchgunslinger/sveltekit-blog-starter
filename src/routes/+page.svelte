@@ -1,7 +1,7 @@
 <script>
 	import { siteTitle } from '$lib/config';
 
-	export let data;
+	// export let data;
 </script>
 
 <svelte:head>
