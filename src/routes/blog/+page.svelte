@@ -10,7 +10,7 @@
 
 		return new Date(b.date) - new Date(a.date)
 	})
-	console.log(newData)
+	// console.log(newData)
 </script>
 
 
