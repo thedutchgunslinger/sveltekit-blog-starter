@@ -5,7 +5,10 @@ updated: "2021-11-01"
 categories: 
   - "sveltekit"
   - "markdown"
-coverImage: "/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
+  - "html"
+  - "css"
+  - "js"
+coverImage: "/videos/bunny.mp4"
 coverWidth: 16
 coverHeight: 9
 excerpt: Check out how heading links work with this starter in this post.
