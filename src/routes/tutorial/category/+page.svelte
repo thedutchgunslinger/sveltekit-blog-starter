@@ -19,54 +19,54 @@
 </svelte:head>
 
 <div class="compressed-content">
-	<h1 class="h2">Tutorials</h1>
+	<h1 class="h2">blogs</h1>
 	<h2>Featured</h2>
 	<!-- <ul id="featuredCat">
-		<a href="/tutorial/category/webxr"><li><i class="fa-solid fa-vr-cardboard"></i>&nbsp; WebXR</li></a>
-		<a href="/tutorial/category/html"><li>HTML</li></a>
-		<a href="/tutorial/category/css"><li>CSS</li></a>
-		<a href="/tutorial/category/js"><li>JS</li></a>
-		<a href="/tutorial/category/react"><li>React</li></a>
-		<a href="/tutorial/"><li>All</li></a>
+		<a href="/blog/category/webxr"><li><i class="fa-solid fa-vr-cardboard"></i>&nbsp; WebXR</li></a>
+		<a href="/blog/category/html"><li>HTML</li></a>
+		<a href="/blog/category/css"><li>CSS</li></a>
+		<a href="/blog/category/js"><li>JS</li></a>
+		<a href="/blog/category/react"><li>React</li></a>
+		<a href="/blog/"><li>All</li></a>
 	</ul> -->
 
 	<div id="featuredCat" on:mousemove={handleMouseMove}>
-		<a class="card" href="/tutorial/category/webxr">
+		<a class="card" href="/blog/category/webxr">
 			<div class="card-content">
 				<i class="fa-solid fa-vr-cardboard" />
 
 				<h3>WebXR</h3>
 			</div>
 		</a>
-		<a class="card" href="/tutorial/category/html">
+		<a class="card" href="/blog/category/html">
 			<div class="card-content">
 				<i class="fa-brands fa-html5" />
 
 				<h3>HTML</h3>
 			</div>
 		</a>
-		<a class="card" href="/tutorial/category/css">
+		<a class="card" href="/blog/category/css">
 			<div class="card-content">
 				<i class="fa-brands fa-css3-alt" />
 
 				<h3>CSS</h3>
 			</div>
 		</a>
-		<a class="card" href="/tutorial/category/js">
+		<a class="card" href="/blog/category/js">
 			<div class="card-content">
 				<i class="fa-brands fa-square-js" />
 
 				<h3>JS</h3>
 			</div>
 		</a>
-		<a class="card" href="/tutorial/category/react">
+		<a class="card" href="/blog/category/react">
 			<div class="card-content">
 				<i class="fa-brands fa-react" />
 
 				<h3>React</h3>
 			</div>
 		</a>
-		<a class="card" href="/tutorial">
+		<a class="card" href="/blog">
 			<div class="card-content">
 				<i class="fa-solid fa-grip" />
 
@@ -77,7 +77,7 @@
 	<h2>All</h2>
 	<ul id="allCat">
 		{#each uniqueCategories as category}
-		<a href="/tutorial/category/{category.title}">
+		<a href="/blog/category/{category.title}">
 			<li>
 				<p>
 						{category.title}&nbsp;

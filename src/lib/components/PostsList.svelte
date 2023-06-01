@@ -19,7 +19,7 @@
 			<article>
 				<div class="img">
 
-					<a href="/tutorial/{post.slug}" class="videoOverlay">
+					<a href="/blog/{post.slug}" class="videoOverlay">
 						<!-- <img
 						src={post.coverImage}
 						alt=""
@@ -42,7 +42,7 @@
 				<div class="text">
 					<div>
 
-						<a href="/tutorial/{post.slug}">
+						<a href="/blog/{post.slug}">
 							<h2>
 								{post.title}
 							</h2>
@@ -52,7 +52,7 @@
 					</div>
 					<div class="cat">
 						{#each post.categories as category}
-							<a class="catBadge" href="/tutorial/category/{category}">{category}</a>
+							<a class="catBadge" href="/blog/category/{category}">{category}</a>
 						{/each	}
 					</div>
 				</div>

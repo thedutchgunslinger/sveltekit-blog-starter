@@ -22,7 +22,7 @@ export const navItems = [
 	},
 	{
 		title: 'Tutorials',
-		route: '/tutorial/category'
+		route: '/blog/category'
 	},
 	 {
 		title: 'About',

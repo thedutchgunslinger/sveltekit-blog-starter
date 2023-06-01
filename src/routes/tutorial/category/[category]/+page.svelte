@@ -22,9 +22,9 @@
 
 {#if posts.length}
 	<PostsList posts={posts} />
-	<Pagination currentPage={page} totalPosts={total} path="/tutorial/category/{category}/page" />
+	<Pagination currentPage={page} totalPosts={total} path="/blog/category/{category}/page" />
 {:else}
 	<p><strong>Ope!</strong> Sorry, couldn't find any posts in the category "{category}".</p>
 
-	<p><a href="/tutorial">Back to blog</a></p>
+	<p><a href="/blog">Back to blog</a></p>
 {/if}
