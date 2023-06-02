@@ -38,6 +38,13 @@
 				<h3>WebXR</h3>
 			</div>
 		</a>
+		<a class="card" href="/blog/category/games">
+			<div class="card-content">
+				<i class="fa-solid fa-gamepad" />
+
+				<h3>Games</h3>
+			</div>
+		</a>
 		<a class="card" href="/blog/category/html">
 			<div class="card-content">
 				<i class="fa-brands fa-html5" />
@@ -57,13 +64,6 @@
 				<i class="fa-brands fa-square-js" />
 
 				<h3>JS</h3>
-			</div>
-		</a>
-		<a class="card" href="/blog/category/react">
-			<div class="card-content">
-				<i class="fa-brands fa-react" />
-
-				<h3>React</h3>
 			</div>
 		</a>
 		<a class="card" href="/blog">
