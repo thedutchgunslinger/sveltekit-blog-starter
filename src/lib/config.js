@@ -5,7 +5,7 @@
  * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/ 
 
-export const siteTitle = 'NBeij'
+export const siteTitle = 'Noah Beij'
 export const siteDescription = 'Portfolio of Noah Beij, find and learn about cool stuff here!'
 export const siteURL = 'nbeij.nl'
 export const siteLink = 'https://nbeij.nl'

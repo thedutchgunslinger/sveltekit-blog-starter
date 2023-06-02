@@ -390,9 +390,31 @@ li:first-of-type {
 			text-decoration: none;
 		}
 
+			a:nth-child(1) {
+			border-radius: 1rem 1rem 5px 5px;
+		}
+
+		a:nth-last-child(1)  {
+			border-radius: 5px 5px 1rem 1rem;
+		}
+
 	@media (min-width: 750px) and (max-width: 1080px) {
 		// background-color: yellow;
 		grid-template-columns: repeat(2, 1fr);
+
+			a:nth-child(1) {
+			border-radius: 1rem 5px 5px 5px;
+		}
+		a:nth-child(2) {
+			border-radius: 5px 1rem 5px 5px;
+		}
+		a:nth-last-child(2) {
+			border-radius: 5px 5px 5px 1rem;
+		}
+
+		a:nth-last-child(1)  {
+			border-radius: 5px 5px 1rem 5px;
+		}
 	}
 	@media (min-width: 1080px) {
 		// background-color: green;

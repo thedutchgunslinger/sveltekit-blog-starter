@@ -21,7 +21,7 @@ footer {
 		gap: 0rem 1.5rem;
 		padding: 0;
 		margin: 0;
-
+		// background-color: red;
 		a:hover {
 			text-decoration: underline;
 		}
@@ -29,6 +29,15 @@ footer {
 
 	svg {
 		fill: currentColor;
+	}
+}
+
+
+#navLayout{
+	@media (min-width: vars.$smMin) {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
 	}
 }
 
@@ -43,6 +52,7 @@ header {
 		justify-content: center;
 		flex-wrap: wrap;
 		height: auto;
+		// background-color: red;
 	}
 
 	.site-title {
@@ -57,7 +67,6 @@ header {
 		font-weight: bold;
 
 		@media (min-width: vars.$smMin) {
-			width: 100%;
 			font-size: 1.6rem;
 		}
 	}
@@ -142,9 +151,6 @@ header {
 			color: inherit;
 
 			ul {
-				margin: 1rem auto 0;
-				padding-top: 0.5rem;
-				border-top: 1px solid var(--dark);
 				width: max-content;
 
 				li {
@@ -154,14 +160,21 @@ header {
 					text-align: initial;
 					margin-bottom: 0;
 				}
+
+				li a[href*="contact"] {
+					background-color: var(--darker);
+					color: var(--paper);
+					padding: .5rem 1rem;
+					border-radius: 5px;
+				}
 			}
 		}
 	}
 }
 
 footer {
-	background: var(--darker);
-	color: var(--paper);
+	background: var(--lightAccent);
+	color: var(--lighterAccent);
 	display: grid;
 	grid-template-columns: 100%;
 	align-items: stretch;

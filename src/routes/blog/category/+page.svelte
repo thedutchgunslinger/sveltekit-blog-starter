@@ -19,7 +19,7 @@
 </svelte:head>
 
 <div class="compressed-content">
-	<h1 class="h2">blogs</h1>
+	<h1 class="h2">Tutorials</h1>
 	<h2>Featured</h2>
 	<!-- <ul id="featuredCat">
 		<a href="/blog/category/webxr"><li><i class="fa-solid fa-vr-cardboard"></i>&nbsp; WebXR</li></a>
