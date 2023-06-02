@@ -32,6 +32,28 @@ footer {
 	}
 }
 
+header{
+	position: relative;
+
+	.warningBanner{
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		margin-bottom: -25px;
+		height: 25px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: #f3de8a;
+
+		p {
+			font-size: .8rem;
+			color: var(--paper);
+			font-weight: 600;
+		}
+	}
+}
 
 #navLayout{
 	@media (min-width: vars.$smMin) {
@@ -166,6 +188,21 @@ header {
 					color: var(--paper);
 					padding: .5rem 1rem;
 					border-radius: 5px;
+				}
+				li a[href*="theme"] {
+					position: relative;
+				}
+				li a[href*="theme"]::after{
+					content: 'New!';
+					position: absolute;
+					top: -15px;
+					right: -15px;
+					background-color: var(--accent);
+					border-radius: 5px;
+					rotate: 15deg;
+					font-size: .8rem;
+					padding: .25em .5em;
+					pointer-events: none;
 				}
 			}
 		}

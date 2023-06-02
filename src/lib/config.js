@@ -24,6 +24,14 @@ export const navItems = [
 		title: 'Tutorials',
 		route: '/blog/category'
 	},
+	{
+		title: 'Casus',
+		route: '/casus'
+	},
+	// {
+	// 	title: 'Theme',
+	// 	route: '/theme'
+	// },
 	 {
 		title: 'About',
 		route: '/about'

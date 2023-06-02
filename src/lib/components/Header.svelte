@@ -23,6 +23,9 @@
 		</a>
 		<MainNav />
 	</div>
+	<div class="warningBanner">
+			<p>⚠️ This site is work in progress, contents may change.</p>
+	</div>
 	<HamburgerMenuButton />
 
 </header>

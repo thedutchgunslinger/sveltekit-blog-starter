@@ -6,6 +6,7 @@ categories:
   - 'html'
   - 'js'
   - 'games'
+  - 'HTML Canvas Games'
 coverImage: '/videos/canvasGamesBasics.mp4'
 coverWidth: 16
 coverHeight: 9

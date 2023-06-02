@@ -128,7 +128,7 @@ li {
 		height: 400px;
 	}
 
-	@media (min-width: 750px) and (max-width: 1080px) {
+	@media (min-width: vars.$smMin) and (max-width: vars.$mdMin) {
 		grid-template-columns: repeat(2, 1fr);
 		li:first-of-type {
 			grid-column: span 2;
@@ -207,7 +207,7 @@ li {
 
 
 	}
-	@media (min-width: 1080px) {
+	@media (min-width: vars.$mdMin) {
 		grid-template-columns: repeat(3, 1fr);
 		li:first-of-type {
 			grid-column: span 3;
@@ -398,7 +398,7 @@ li:first-of-type {
 			border-radius: 5px 5px 1rem 1rem;
 		}
 
-	@media (min-width: 750px) and (max-width: 1080px) {
+	@media (min-width: vars.$smMin) and (max-width: vars.$mdMin) {
 		// background-color: yellow;
 		grid-template-columns: repeat(2, 1fr);
 
@@ -416,7 +416,7 @@ li:first-of-type {
 			border-radius: 5px 5px 1rem 5px;
 		}
 	}
-	@media (min-width: 1080px) {
+	@media (min-width: vars.$mdMin) {
 		// background-color: green;
 		grid-template-columns: repeat(3, 1fr);
 
@@ -459,12 +459,14 @@ li:first-of-type {
 			background-color: var(--lightAccent);
 			border-radius: 5px;
 			font-size: 1.5rem;
+			word-break: break-all;
 		}
 		a {
 			text-decoration: none;
 			p {
-
+				width: 75%;
 				transition: all 0.2s ease-in-out;
+				text-align: center;
 			}
 		}
 		a:hover {
@@ -473,10 +475,10 @@ li:first-of-type {
 			}
 		}
 
-	@media (min-width: 750px) and (max-width: 1080px) {
+	@media (min-width: vars.$smMin) and (max-width: vars.$mdMin) {
 		grid-template-columns: repeat(4, 1fr);
 	}
-	@media (min-width: 1080px) {
+	@media (min-width: vars.$mdMin) {
 		// background-color: green;
 		grid-template-columns: repeat(6, 1fr);
 
