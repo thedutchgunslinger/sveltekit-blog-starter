@@ -12,6 +12,7 @@ footer {
 			font-weight: bold;
 		}
 	}
+	z-index: 2;
 
 	nav ul {
 		list-style-type: none;
@@ -45,7 +46,7 @@ header{
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		background-color: #f3de8a;
+		background-color: var(--warning);
 
 		p {
 			font-size: .8rem;
