@@ -29,3 +29,14 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	-webkit-font-smoothing: antialiased;
 }
+
+.btn {
+	background-color: var(--darker);
+	padding: 0.5rem 1rem;
+	margin-bottom: 1rem;
+	color: var(--paper);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

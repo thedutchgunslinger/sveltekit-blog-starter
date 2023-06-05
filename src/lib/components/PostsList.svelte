@@ -49,11 +49,15 @@
 						</a>
 						<hr>
 						<p>{post.excerpt}</p>
-					</div>
-					<div class="cat">
-						{#each post.categories as category}
+					</div>	
+					<div>
+
+						<a href="/blog/{post.slug}" class="btn">See More</a>
+						<div class="cat">
+							{#each post.categories as category}
 							<a class="catBadge" href="/blog/category/{category}">{category}</a>
-						{/each	}
+							{/each	}
+						</div>
 					</div>
 				</div>
 			</article>
