@@ -6,6 +6,7 @@ categories:
   - 'html'
   - 'css'
   - 'js'
+  - 'effect'
 coverImage: '/videos/mouseParallax.mp4'
 coverWidth: 16
 coverHeight: 9
