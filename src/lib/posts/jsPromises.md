@@ -21,6 +21,8 @@ excerpt: Learn about promises and async in Javascript.
 First we need to make a new promise from its class, we do this by using the `new` keyword and the `Promise` class. The Promise class takes a function as an argument. This function takes 2 arguments, resolve and reject. Resolve is used when the promise is resolved and reject is used when the promise is rejected. Let's make it get a random number and if it is 1 we resolve the promise and if it is 0 we reject the promise.
     
 ```js
+// main.js
+
 const myPromise = new Promise((resolve, reject) => {
   let randomNum = Math.round(Math.random());
   if(randomNum){
@@ -38,6 +40,8 @@ Now we can use the promise. We do this by using the `.then()` method. This metho
 
 
 ```js
+// main.js
+
 myPromise.then((value) => {
   p.textContent = value;
 }).catch((value) => {
